@@ -6,18 +6,20 @@ if usuario != "S":
 score = 0
 print("Vamos começar!")
 
-print(" PERGUNTA 1 - Em qual dessas opções tem somente vogais? \n A) a,e,i,o,u  \n B) b, e ,d c, h \n C) t, u, v, x, z  \n D) a, e , i, k, g \n") 
+print(" PERGUNTA 1 - Dadas as proposições abaixo, marque a opção que preenche corretamente as lacunas:\n Major Quaresma saiu ____ alguns minutos.\n O mapa indica que o subúrbio fica ____ meia hora daqui.\n  Daqui ____ um ano iremos viajar.\n Não vejo Ricardo Coração dos Outros ____ dias. \n A) a; há; há; a  \n B)há; a; a; há \n C) a; há; a; há  \n D)há; há; a; a\n") 
+
 resposta1 = input ("Resposta: ")
 
-if resposta1 == "A":
+if resposta1 == "B":
     print("Você acertou!")
     score = score+1
 else:print("Você errou")
 
-print("PERGUNTA 2 - Quantas sílabas tem a palavra MORANGO \n A) 8 Sílabas  \n B) 6 sílabas \n C) 3 sílabas  \n D) 5 sílabas \n") 
+
+print("PERGUNTA 2 - Já ___ anos, ___ neste local árvores e flores.\n Hoje, só ___ ervas daninhas \n A) fazem, havia, existe  \n B)  fazem, havia, existe \n C) fazem, haviam, existem \n D) faz, havia, existem \n") 
 resposta2 = input ("Resposta: ")
 
-if resposta2 == "C":
+if resposta2 == "D":
     print ("Você acertou!")
     score = score+1
 else: print("Você errou!")
