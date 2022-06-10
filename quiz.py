@@ -128,7 +128,7 @@ while True:
         "R$ 25,00 e R$ 5,00\n o valor que cada um deles contribuiu para a aposta. Ganharam um prêmio de R$ 265.340,50 e "
         "decidiram dividir\n o prêmio proporcionalmente ao valor apostado. Qual a parte do jogador que investiu R$ 5,00? "
         "\n \n"
-        " a) 26.534,05  \n b) 26.234,50 \n b) 26.534,50  \n d) 26.534,55 \n")
+        " a) 26.534,05  \n b) 26.234,50 \n c) 26.534,50  \n d) 26.534,55 \n")
 
     resposta6 = input("A sua resposta é: ")
     print()
@@ -142,6 +142,66 @@ while True:
         score -= 0.25
         sleep(0.5)
         continue
+    
+    
+#RACIOCINIO LÓGICO
+
+while True:
+    print(
+        "PERGUNTA 7 - \n Caminhando pela manhã, uma senhora contou 20 casas em uma rua a sua direita.\n Na volta, ela contou 20 casas a sua esquerda. \n Quantas casas ela viu ao total ?"
+        " a) 40  \n b) 20 \n c) 30  \n d) 50 \n")
+
+    resposta6 = input("A sua resposta é: ")
+    print()
+    sleep(1)
+    if resposta6 == "b":
+        print("Parabéns! Você acertou.\n \n")
+        score += 1
+        break
+    else:
+        print("Você errou, vamos tentar novamente...\n")
+        score -= 0.25
+        sleep(0.5)
+        continue
+    
+while True:
+    print(
+        "PERGUNTA 8 - \n Na kombi que entrei havia 8 passageiros.\n Pouco depois, 3 pessoas desceram e duas entraram.\n Quantas pessoas há na kombi"
+        "\n \n"
+        " a) 7  \n b) 8 \n c) 9  \n d) 6 \n")
+
+    resposta6 = input("A sua resposta é: ")
+    print()
+    sleep(1)
+    if resposta6 == "c":
+        print("Parabéns! Você acertou.\n \n")
+        score += 1
+        break
+    else:
+        print("Você errou, vamos tentar novamente...\n")
+        score -= 0.25
+        sleep(0.5)
+        continue    
+     
+     
+while True:
+    print(
+        "PERGUNTA 9 - \n Meu avô tem 5 filhos, cada filho tem 3 filhos. Quantos primos eu tenho? "
+        "\n \n"
+        " a) 15  \n b) 10 \n c) 12  \n 9 \n")
+
+    resposta6 = input("A sua resposta é: ")
+    print()
+    sleep(1)
+    if resposta6 == "c":
+        print("Parabéns! Você acertou.\n \n")
+        score += 1
+        break
+    else:
+        print("Você errou, vamos tentar novamente...\n")
+        score -= 0.25
+        sleep(0.5)
+        continue     
 
 nota = score
 print(f"Chegamos ao Final! \nE você conseguiu: {score} Pontos")
